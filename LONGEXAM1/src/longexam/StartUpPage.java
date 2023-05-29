@@ -58,7 +58,7 @@ public class StartUpPage extends JFrame {
 				dispose();
 			}
 		});
-		ArtGalleryBtn.setBounds(64, 202, 283, 104);
+		ArtGalleryBtn.setBounds(64, 177, 283, 196);
 		contentPane.add(ArtGalleryBtn);
 		
 		JLabel AboutMeBtn = new JLabel("");
@@ -70,7 +70,7 @@ public class StartUpPage extends JFrame {
 				dispose();
 			}
 		});
-		AboutMeBtn.setBounds(304, 336, 288, 104);
+		AboutMeBtn.setBounds(357, 258, 234, 205);
 		contentPane.add(AboutMeBtn);
 		
 		JLabel SkillsExpBtn = new JLabel("");
@@ -82,7 +82,7 @@ public class StartUpPage extends JFrame {
 				dispose();
 			}
 		});
-		SkillsExpBtn.setBounds(547, 202, 283, 104);
+		SkillsExpBtn.setBounds(630, 152, 226, 221);
 		contentPane.add(SkillsExpBtn);
 		
 		JLabel BackBtn = new JLabel("");
@@ -94,18 +94,13 @@ public class StartUpPage extends JFrame {
 				dispose();
 			}
 		});
-		BackBtn.setBounds(50, 428, 56, 47);
+		BackBtn.setBounds(52, 413, 56, 62);
 		contentPane.add(BackBtn);
 		
 		JLabel WhiteErase = new JLabel("");
 		WhiteErase.setIcon(new ImageIcon("C:\\Users\\Lovely\\eclipse-workspace\\LONGEXAM1\\src\\longexam\\white.jpg"));
-		WhiteErase.setBounds(786, 428, 61, 55);
+		WhiteErase.setBounds(786, 413, 61, 55);
 		contentPane.add(WhiteErase);
-		
-		JLabel Background2 = new JLabel("");
-		Background2.setIcon(new ImageIcon("C:\\Users\\Lovely\\eclipse-workspace\\LONGEXAM1\\src\\longexam\\ChooseGameBack.png"));
-		Background2.setBounds(0, 0, 886, 511);
-		contentPane.add(Background2);
 		
 		JLabel ExitBtn = new JLabel("");
 		ExitBtn.addMouseListener(new MouseAdapter() {
@@ -114,8 +109,13 @@ public class StartUpPage extends JFrame {
 				dispose();
 			}
 		});
-		ExitBtn.setBounds(817, 29, 45, 55);
+		ExitBtn.setBounds(817, 23, 45, 55);
 		contentPane.add(ExitBtn);
+		
+		JLabel NewBackGround2 = new JLabel("");
+		NewBackGround2.setIcon(new ImageIcon("C:\\Users\\Lovely\\eclipse-workspace\\LONGEXAM1\\src\\longexam\\NewStartUp.png"));
+		NewBackGround2.setBounds(0, -16, 900, 527);
+		contentPane.add(NewBackGround2);
 
 	
 	}

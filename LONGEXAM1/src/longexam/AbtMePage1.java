@@ -53,11 +53,6 @@ public class AbtMePage1 extends JFrame {
 		AbtMeTxtPane1.setBounds(100, 214, 455, 218);
 		contentPane.add(AbtMeTxtPane1);
 		
-		JLabel AbtMeBackground = new JLabel("New label");
-		AbtMeBackground.setIcon(new ImageIcon("C:\\Users\\Lovely\\eclipse-workspace\\LONGEXAM1\\src\\longexam\\AbtMeBack1.png"));
-		AbtMeBackground.setBounds(0, 0, 905, 511);
-		contentPane.add(AbtMeBackground);
-		
 		JLabel AbtMe1BackLbl = new JLabel("");
 		AbtMe1BackLbl.addMouseListener(new MouseAdapter() {
 			@Override
@@ -81,5 +76,10 @@ public class AbtMePage1 extends JFrame {
 		});
 		AbtMe1NextLbl.setBounds(786, 431, 63, 53);
 		contentPane.add(AbtMe1NextLbl);
+		
+		JLabel AbtMeBack1 = new JLabel("");
+		AbtMeBack1.setIcon(new ImageIcon("C:\\Users\\Lovely\\eclipse-workspace\\LONGEXAM1\\src\\longexam\\NewAbtMeBack.png"));
+		AbtMeBack1.setBounds(0, 0, 886, 511);
+		contentPane.add(AbtMeBack1);
 	}
 }

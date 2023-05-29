@@ -66,10 +66,10 @@ public class AbtMePage2 extends JFrame {
 		AbtMeBackLbl.setBounds(54, 430, 51, 51);
 		contentPane.add(AbtMeBackLbl);
 		
-		JLabel AbtMe2Background = new JLabel("New label");
-		AbtMe2Background.setIcon(new ImageIcon("C:\\Users\\Lovely\\eclipse-workspace\\LONGEXAM1\\src\\longexam\\AbtMeBack2.png"));
-		AbtMe2Background.setBounds(0, 0, 901, 511);
-		contentPane.add(AbtMe2Background);
+		JLabel NewAbtMeBack2 = new JLabel("");
+		NewAbtMeBack2.setIcon(new ImageIcon("C:\\Users\\Lovely\\eclipse-workspace\\LONGEXAM1\\src\\longexam\\NewAbtMeBack2.png"));
+		NewAbtMeBack2.setBounds(0, 0, 886, 511);
+		contentPane.add(NewAbtMeBack2);
 		
 	}
 
