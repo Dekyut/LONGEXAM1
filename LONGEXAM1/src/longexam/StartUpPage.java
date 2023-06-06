@@ -100,11 +100,6 @@ public class StartUpPage extends JFrame {
 		BackBtn.setBounds(52, 413, 56, 62);
 		contentPane.add(BackBtn);
 		
-		JLabel WhiteErase = new JLabel("");
-		WhiteErase.setIcon(new ImageIcon("C:\\Users\\Lovely\\eclipse-workspace\\LONGEXAM1\\src\\longexam\\white.jpg"));
-		WhiteErase.setBounds(786, 413, 61, 55);
-		contentPane.add(WhiteErase);
-		
 		//this label/button will exit the program when clicked
 		JLabel ExitBtn = new JLabel("");
 		ExitBtn.addMouseListener(new MouseAdapter() {
@@ -116,10 +111,23 @@ public class StartUpPage extends JFrame {
 		ExitBtn.setBounds(817, 23, 45, 55);
 		contentPane.add(ExitBtn);
 		
+		//this will take you to the references page when clicked
+		JLabel referencesBtn = new JLabel("");
+		referencesBtn.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				ReferencePage rfcPage = new ReferencePage();
+				rfcPage.setVisible(true);
+				dispose();
+			}
+		});
+		referencesBtn.setBounds(770, 454, 86, 20);
+		contentPane.add(referencesBtn);
+		
 		
 		//this contains the background of the page/class
 		JLabel NewBackGround2 = new JLabel("");
-		NewBackGround2.setIcon(new ImageIcon("C:\\Users\\Lovely\\eclipse-workspace\\LONGEXAM1\\src\\longexam\\NewStartUp.png"));
+		NewBackGround2.setIcon(new ImageIcon("C:\\Users\\Lovely\\eclipse-workspace\\LONGEXAM1\\src\\longexam\\NewMainMenu.png"));
 		NewBackGround2.setBounds(0, -16, 900, 527);
 		contentPane.add(NewBackGround2);
 
