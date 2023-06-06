@@ -43,11 +43,13 @@ public class ArtGallery2 extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
+		//this contains the background of the page
 		JLabel ArtGalleryBackground1 = new JLabel("");
 		ArtGalleryBackground1.setIcon(new ImageIcon("C:\\Users\\Lovely\\eclipse-workspace\\LONGEXAM1\\src\\longexam\\ArtGallery2.png"));
 		ArtGalleryBackground1.setBounds(0, 0, 912, 526);
 		contentPane.add(ArtGalleryBackground1);
 		
+		//this label/button will take the user to the designate previous page when clicked
 		JLabel ArtGalBackBtn = new JLabel("");
 		ArtGalBackBtn.addMouseListener(new MouseAdapter() {
 			@Override
