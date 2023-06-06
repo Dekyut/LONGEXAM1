@@ -48,7 +48,7 @@ public class StartUpPage extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		
+		//this label/button will take the user to the designated ArtGallery page/class when clicked
 		JLabel ArtGalleryBtn = new JLabel("");
 		ArtGalleryBtn.addMouseListener(new MouseAdapter() {
 			@Override
@@ -61,6 +61,7 @@ public class StartUpPage extends JFrame {
 		ArtGalleryBtn.setBounds(64, 177, 283, 196);
 		contentPane.add(ArtGalleryBtn);
 		
+		//this label/button will take the user to the designated About Me page/class when clicked
 		JLabel AboutMeBtn = new JLabel("");
 		AboutMeBtn.addMouseListener(new MouseAdapter() {
 			@Override
@@ -73,6 +74,7 @@ public class StartUpPage extends JFrame {
 		AboutMeBtn.setBounds(357, 258, 234, 205);
 		contentPane.add(AboutMeBtn);
 		
+		//this label/button will take the user to the designated Skills & Expertise page/class when clicked
 		JLabel SkillsExpBtn = new JLabel("");
 		SkillsExpBtn.addMouseListener(new MouseAdapter() {
 			@Override
@@ -85,6 +87,7 @@ public class StartUpPage extends JFrame {
 		SkillsExpBtn.setBounds(630, 152, 226, 221);
 		contentPane.add(SkillsExpBtn);
 		
+		//this label/button will take the user to the designate previous page when clicked
 		JLabel BackBtn = new JLabel("");
 		BackBtn.addMouseListener(new MouseAdapter() {
 			@Override
@@ -102,6 +105,7 @@ public class StartUpPage extends JFrame {
 		WhiteErase.setBounds(786, 413, 61, 55);
 		contentPane.add(WhiteErase);
 		
+		//this label/button will exit the program when clicked
 		JLabel ExitBtn = new JLabel("");
 		ExitBtn.addMouseListener(new MouseAdapter() {
 			@Override
@@ -112,6 +116,8 @@ public class StartUpPage extends JFrame {
 		ExitBtn.setBounds(817, 23, 45, 55);
 		contentPane.add(ExitBtn);
 		
+		
+		//this contains the background of the page/class
 		JLabel NewBackGround2 = new JLabel("");
 		NewBackGround2.setIcon(new ImageIcon("C:\\Users\\Lovely\\eclipse-workspace\\LONGEXAM1\\src\\longexam\\NewStartUp.png"));
 		NewBackGround2.setBounds(0, -16, 900, 527);
