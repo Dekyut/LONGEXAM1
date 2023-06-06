@@ -45,6 +45,7 @@ public class SkillsExpPage extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
+		// These are labels that contain information about my skills and expertise
 		JLabel Skill1 = new JLabel("Problem Solving");
 		Skill1.setForeground(new Color(0, 0, 205));
 		Skill1.setFont(new Font("Tw Cen MT Condensed", Font.BOLD, 35));
@@ -93,6 +94,8 @@ public class SkillsExpPage extends JFrame {
 		Skill8.setBounds(565, 356, 250, 45);
 		contentPane.add(Skill8);
 		
+		
+		//this label/button will take the user to the designate previous page when clicked
 		JLabel BackBtn = new JLabel("");
 		BackBtn.addMouseListener(new MouseAdapter() {
 			@Override
@@ -105,6 +108,7 @@ public class SkillsExpPage extends JFrame {
 		BackBtn.setBounds(383, 437, 135, 52);
 		contentPane.add(BackBtn);
 		
+		//this contains the background of the page
 		JLabel SkillsExpBack = new JLabel("");
 		SkillsExpBack.setIcon(new ImageIcon("C:\\Users\\Lovely\\eclipse-workspace\\LONGEXAM1\\src\\longexam\\SkillsExp.png"));
 		SkillsExpBack.setBounds(0, 0, 886, 511);
