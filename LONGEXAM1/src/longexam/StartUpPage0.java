@@ -43,6 +43,7 @@ public class StartUpPage0 extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
+		//this contains the background of the file
 		JLabel PuzzleBackground0 = new JLabel("");
 		PuzzleBackground0.addMouseListener(new MouseAdapter() {
 			@Override
